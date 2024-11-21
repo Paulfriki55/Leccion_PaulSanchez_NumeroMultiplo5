@@ -56,7 +56,7 @@ class MostrarNumero extends StatelessWidget {
                   'Correcto',
                   style: TextStyle(fontSize: 28, color: Colors.white, fontWeight: FontWeight.bold),
                 ),
-              ).animate().slideIn(duration: 500.ms).then().shake(),
+              ).animate().fadeIn(duration: 500.ms).then().shake(),
           ],
         ),
       ),
